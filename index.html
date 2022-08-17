@@ -1,71 +1,342 @@
 <!DOCTYPE html>
-<html lang ="en">
-    <head>
-        <title>Home || Venezuela</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="ven.css">
-        <meta name="viewport" content="width = device-width, initial-scale=1.0">
-        <meta name="description" content="welcom to Venezule,this website introduces this beautiful county.">
-    </head>
-  
-    <body>
-        <div id="wrapper">
-        <header>
-               
-        <h1 id="name">Welcome to Venezuela</h1>
-        <script>
-                var name = prompt("please let me know your name");
-                if(name == null){
-                    name ="";
-                }
-                document.getElementById("name").innerHTML= name+ " Welcome to Venezuela";
-        </script>
-       </header>
-             <div id="background">
-                 <nav>
-                     <a href="index.html" onmouseover="alert('it will ask your name again')">Home</a>
-                     <a href="Food.html">Food</a>
-                     <a href="Attractions.html">Attractions</a> 
-                     <a href="music.html">Music</a> 
-                    
-                 </nav>
-             </div>
-      <main>
-          <nav class="left">
-            <div class="card">
-                    <img src="images/venezuela-background-3.jpg" alt="venezuela flag" style="width: 100%">
-                    <h2>About the country</h2>
-                    <p class ="title"> where is it & the weather</p>
-                    <a href ="country.html">learn more</a>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Luis Miguel Hung Wu" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="./Styles/index.css" />
+    <title>Welcome to Venezuela</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#"><img src="./image/luis logo.png" alt="logo" /></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#comida">FOOD</a></li>
+          <li><a href="#people">COMMENTS</a></li>
+          <li><a href="#location">LOCATION</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section-one">
+        <div class="container" id="home">
+          <div class="imgs">
+            <a href="#" class="active"
+              ><img src="./image/roraima.jpg" alt=""
+            /></a>
+            <a href="#"><img src="./image/monte roraima.jpeg" alt="" /></a>
+            <a href="#"><img src="./image/salto angel.jpg" alt="" /></a>
+            <a href="#"
+              ><img src="./image/Cayo_de_Agua_in_Los_Roques.jpg" alt=""
+            /></a>
+            <a href="#"><img src="./image/losroques.jpg" alt="" /></a>
+            <a href="#"><img src="./image/gransabana.jpg" alt="" /></a>
+            <a href="#"><img src="./image/Tucacas.jpg" alt="" /></a>
+            <a href="#"
+              ><img
+                src="./image/genesis-garcia-hjJZz4cHnyA-unsplash.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="shades">
+            <div class="left"></div>
+            <div class="top"></div>
+            <div class="right"></div>
+            <div class="bottom"></div>
+          </div>
+          <div class="titles">
+            <a href="#" class="active">
+              <div class="title">Playa</div>
+              <div class="title2">Vamos para la playa</div>
+            </a>
+            <a href="#">
+              <div class="title">RORAIMA</div>
+              <div class="title2">Floating mount</div>
+            </a>
+            <a href="#">
+              <div class="title">ANGEL FALL</div>
+              <div class="title2">The tallest falls in the world</div>
+            </a>
+            <a href="#">
+              <div class="title">CAYO DE AGUA</div>
+              <div class="title2">Los Roques</div>
+            </a>
+            <a href="#">
+              <div class="title">LOS ROQUES</div>
+              <div class="title2">Vamos para la playa</div>
+            </a>
+            <a href="#">
+              <div class="title">GRAN SABANA</div>
+              <div class="title2">Bolívar, Venezuela</div>
+            </a>
+            <a href="#">
+              <div class="title">TUCACAS</div>
+              <div class="title2">Morrocoy national park</div>
+            </a>
+            <a href="#">
+              <div class="title">MEDANO DE CORO</div>
+              <div class="title2">Parque Nacional Médanos de Coro</div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="section-two">
+        <div class="overview-container">
+          <div class="overview-title">
+            <h1>00</h1>
+            <h2>WHAT WE HAVE</h2>
+          </div>
+          <div class="card">
+            <a href="#comida">
+              <img src="./image/beach.jpg" alt="" />
+              <div class="text">
+                <h2>The <span> FOOD </span>ride your back unless it is bent</h2>
+                <p>你的腰不弯，别人就不能骑在你的背上</p>
+              </div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="#people">
+              <img src="./image//jiliang-feng-boss2.jpg" alt="" />
+              <div class="text">
+                <h2>
+                  A man <span> can't </span>ride your back unless it is bent
+                </h2>
+                <p>你的腰不弯，别人就不能骑在你的背上</p>
+              </div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="#location">
+              <img src="./image/jiliang-feng-boss4.jpg" alt="" />
+              <div class="text">
+                <h2>
+                  A man <span> can't </span>ride your back unless it is bent
+                </h2>
+                <p>你的腰不弯，别人就不能骑在你的背上</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <div id="comida" class="food-container">
+        <div class="food-title">
+          <h1>01</h1>
+          <h2>SABOR VENEZOLANO</h2>
+        </div>
+
+        <ul>
+          <li id="Arepa">
+            <div class="imageContainer">
+              <img src="./image/Arepa.png" alt="arepa" />
+            </div>
+            <div class="description">
+              <h1>AREPA</h1>
+              <p>
+                Arepa is a type of food made of ground maize dough, eaten in the
+                northern region of South America since pre-Columbian times, and
+                notable primarily in the cuisine of Colombia and Venezuela, but
+                also present in the cuisines of Bolivia and other countries.
+              </p>
+            </div>
+          </li>
+          <li id="CACHAPA">
+            <div class="description">
+              <h1>CACHAPA</h1>
+              <p>
+                Cachapa is a traditional dish made from maize flour from
+                Venezuela. Like arepas, they are popular at roadside stands.
+                They can be made like pancakes of fresh corn dough, or wrapped
+                in dry corn leaves and boiled (cachapa de hoja). The most common
+                varieties are made with fresh ground corn mixed into a thick
+                batter and cooked on a budare, like pancakes; the cachapa is
+                slightly thicker and lumpier because of the pieces from corn
+                kernels.
+              </p>
+            </div>
+            <div class="imageContainer">
+              <img src="./image/Cachapa.png" alt="CACHAPA" />
+            </div>
+          </li>
+          <li id="Empanada">
+            <div class="imageContainer">
+              <img src="./image/Empanada.png" alt="Empanada" />
+            </div>
+            <div class="description">
+              <h1>EMPANADA</h1>
+              <p>
+                Venezuelan Empanadas are fried corn flour patties stuffed with
+                different fillings such as cheese, ham, beans, pulled steak,
+                chicken or fish.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <section id="people" class="section-three">
+        <div class="people-title">
+          <h1>02</h1>
+          <h2>PEOPLE COMMENT</h2>
+        </div>
+        <div class="people-container">
+          <div
+            class="item focus"
+            style="background-image: url(/image/avila.jpeg)"
+          >
+            <div class="people-shadow"></div>
+            <div class="people-content">
+              <div class="icon">
+                <img src="./image/jiliang-feng-boss2.jpg" classalt="" />
+              </div>
+              <div class="people-text">
+                <div class="tit">Avila Caracas</div>
+                <div class="sub">
+                  If you are visiting Avila for the first time, you can take a
+                  ride up the mountain to preserve your strength and enjoy the
+                  scenery. The cable car route is very long. It takes two peaks
+                  to cross, Caracas is gradually smaller in sight.
                 </div>
-            </nav>
-            <nav class="right">
-                    <div class="card">
-                            <img src="images/food/food.jpg" alt="food" style="width: 100% ">
-                            <h2>Traditional Cuisine</h2>
-                            <p class ="title"> delicious & rich flavor</p>
-                            <a href ="food.html">learn more</a>
-                        </div>
-                    </nav>
-
-            <nav class="card">
-                    <img src="images/attractions.jpg" alt="attractions" style="width: 100%  ">
-                    <h2>Attractions</h2>
-                    <p class ="title"> Famous tourist attractions</p>
-                    <a href ="Attractions.html">learn more</a>
-            </nav>
-                
-            
-                
-               
-          
-      </main>
-      <footer>
-          Copyright &copy; Luis Project<br>
-            
-          <a href="luishung1996@gmail.com">luishung1996@gmail.com</a>
-      </footer>
-    </div>
-
-    </body>
+              </div>
+            </div>
+          </div>
+          <div
+            class="item"
+            style="
+              background-image: url(/image/salto\ angel.jpg);
+              background-position: left;
+            "
+          >
+            <div class="people-shadow"></div>
+            <div class="people-content">
+              <div class="icon">
+                <img src="./image/jiliang-feng-boss111.jpg" classalt="" />
+              </div>
+              <div class="people-text">
+                <div class="tit">Angel Falls</div>
+                <div class="sub">
+                  A slice of heaven on earth? Canaima Park is it, untouched
+                  beautiful nature as far as the eye can see!!! Angel Falls is
+                  of course AMAZING, but in my opinion the true beauty is
+                  Canaima Lagoon. WoW WoW WoW.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="item"
+            style="background-image: url(/image/Cayo_de_Agua_in_Los_Roques.jpg)"
+          >
+            <div class="people-shadow"></div>
+            <div class="people-content">
+              <div class="icon">
+                <img src="./image/jiliang-feng-boss4.jpg" alt="" />
+              </div>
+              <div class="people-text">
+                <div class="tit">Cayo De Agua</div>
+                <div class="sub">
+                  The clearest water I've ever seen!! Recommende if you go on a
+                  day tour, provided that the tour organizer will take care to
+                  include everything (lunch, snack, seats, water & other
+                  drinks).
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="item"
+            style="background-image: url(/image/monte\ roraima.jpeg)"
+          >
+            <div class="people-shadow"></div>
+            <div class="people-content">
+              <div class="icon">
+                <img src="./image/boss (3).jpg" classalt="" />
+              </div>
+              <div class="people-text">
+                <div class="tit">Monte Roraima</div>
+                <div class="sub">
+                  Wonderful hike.Roraima trek was the best I have experienced so
+                  far. Several days outside the civilization on fresh air was
+                  exactly what I had hoped for also Gran Sabana landscape and
+                  nature is piece of a kind.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item" style="background-image: url(/image/Tucacas.jpg)">
+            <div class="people-shadow"></div>
+            <div class="people-content">
+              <div class="icon">
+                <img src="./image/boss (2).jpg" classalt="" />
+              </div>
+              <div class="people-text">
+                <div class="tit">Parque Nacional Morrocoy</div>
+                <div class="sub">
+                  People here are paying attention to the environment, beaches
+                  are clean and you can still have silence if you look for a
+                  lonely cayo
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="item"
+            style="
+              background-image: url(/image/genesis-garcia-hjJZz4cHnyA-unsplash.jpg);
+            "
+          >
+            <div class="people-shadow"></div>
+            <div class="people-content">
+              <div class="icon">
+                <img src="./image/boss (1).jpg" classalt="" />
+              </div>
+              <div class="people-text">
+                <div class="tit">Médanos de Coro</div>
+                <div class="sub">
+                  Dunes + Wind = Amazing Experience. I felt as if I was in the
+                  Sahara Desert. Be prepared for loads of sand in your
+                  shoes..... You can access the dunes taking the road to Punto
+                  Fijo or ask where the "Estatua de la Madre" is.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="location">
+      <div class="location-title">
+        <h1>03</h1>
+        <h2>LOCATION</h2>
+      </div>
+      <div class="contact">
+        <form action="">
+          <h1>YOUR OPINION METTERS</h1>
+          <input type="text" placeholder="YOUR NAME" />
+          <input type="text" placeholder="EMAIL" />
+          <input type="text" placeholder="PHONE" />
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <button>SUBMIT</button>
+        </form>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8116391.023283366!2d-71.11259174701647!3d6.6367939206906055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2853cb36cbd801%3A0xdca0f2587cd54dd3!2sVenezuela!5e0!3m2!1sen!2sca!4v1660694935542!5m2!1sen!2sca"
+          width="50%"
+          height="50%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </footer>
+  </body>
 </html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="index.js"></script>
