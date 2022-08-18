@@ -60,9 +60,9 @@ $(window).scroll(() => {
       $("a").css("color", "white");
     });
   } else {
-    $("header").css("background-color", "#e4dfd16b");
+    $("header").css("background-color", "#57544d");
     headerAnchor.each(() => {
-      $("a").css("color", "#09777d");
+      $("a").css("color", "white");
     });
   }
 });

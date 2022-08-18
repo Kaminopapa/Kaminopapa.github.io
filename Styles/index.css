@@ -28,9 +28,11 @@ body header {
   position: sticky;
   top: 0;
   z-index: 2;
-  background-color: #e4dfd16b;
+  background-color: #57544d;
   -webkit-box-shadow: 3px 3px 5px 1px #686565;
           box-shadow: 3px 3px 5px 1px #686565;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
 }
 
 body header div.logo {
@@ -47,7 +49,7 @@ body header div.logo {
 }
 
 body header div.logo img {
-  width: 4vw;
+  width: 5vw;
   height: 4vw;
 }
 
@@ -68,9 +70,16 @@ body header nav ul {
 }
 
 body header nav ul li a {
-  color: #09777d;
+  color: white;
   text-decoration: none;
   font-size: 1.35rem;
+}
+
+body header nav ul li:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
 }
 
 body main .section-one {
@@ -260,7 +269,7 @@ body main .section-two .overview-container .overview-title h2 {
   top: 150px;
   font-size: 30px;
   letter-spacing: 0.1em;
-  color: #6176B1;
+  color: #6176b1;
 }
 
 body main .section-two .overview-container .card {
@@ -315,7 +324,8 @@ body main .section-two .overview-container .card a .text::before {
           transition-delay: 0.6s;
 }
 
-body main .section-two .overview-container .card a .text h2, body main .section-two .overview-container .card a .text p {
+body main .section-two .overview-container .card a .text h2,
+body main .section-two .overview-container .card a .text p {
   margin-bottom: 6px;
   opacity: 0;
   -webkit-transition: 0.35s;
@@ -345,12 +355,19 @@ body main .section-two .overview-container .card:hover img {
   opacity: 0.3;
 }
 
+body main .section-two .overview-container .card:hover .text h2,
+body main .section-two .overview-container .card:hover .text p {
+  position: absolute;
+  top: 50%;
+}
+
 body main .section-two .overview-container .card:hover .text h2 {
   opacity: 1;
   -webkit-transform: translate(0%, 0%);
           transform: translate(0%, 0%);
   -webkit-transition-delay: 0.4s;
           transition-delay: 0.4s;
+  top: 35%;
 }
 
 body main .section-two .overview-container .card:hover .text p {
@@ -409,7 +426,7 @@ body main .food-container .food-title h2 {
   top: 120px;
   font-size: 30px;
   letter-spacing: 0.1em;
-  color: #6176B1;
+  color: #6176b1;
 }
 
 body main .food-container ul {
@@ -462,13 +479,13 @@ body main .food-container ul li .description h1 {
   font-weight: 600;
   letter-spacing: 20px;
   padding: 10px;
-  color: #F5AF6E;
+  color: #f5af6e;
 }
 
 body main .food-container ul li .description p {
   font-size: 25px;
-  -webkit-transition: .2s;
-  transition: .2s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   color: gray;
   line-height: 40px;
 }
@@ -479,8 +496,8 @@ body main .food-container ul li .description p:hover {
   padding: 10px;
   border-radius: 20px;
   background: linear-gradient(225deg, #f1d48e, #ffe8b1);
-  -webkit-box-shadow: -5px 5px 22px #ceb986, 5px -5px 22px #ffffd3;
-          box-shadow: -5px 5px 22px #ceb986, 5px -5px 22px #ffffd3;
+  -webkit-box-shadow: -5px 5px 22px #ceb986, 5px -5px 22px #ffffd3;
+          box-shadow: -5px 5px 22px #ceb986, 5px -5px 22px #ffffd3;
 }
 
 body main .food-container ul li:nth-child(2) {
@@ -604,7 +621,7 @@ body main .section-three .people-title h2 {
   font-size: 30px;
   letter-spacing: 0.1em;
   z-index: 1;
-  color: #6176B1;
+  color: #6176b1;
 }
 
 body main .section-three .people-container {
@@ -788,7 +805,7 @@ body footer .location-title h2 {
   font-size: 30px;
   letter-spacing: 0.2em;
   z-index: 1;
-  color: #6176B1;
+  color: #6176b1;
 }
 
 body footer .contact {
@@ -822,14 +839,16 @@ body footer .contact form h1 {
   color: #28375e9d;
 }
 
-body footer .contact form input, body footer .contact form textarea, body footer .contact form button {
+body footer .contact form input,
+body footer .contact form textarea,
+body footer .contact form button {
   width: 100%;
   padding: 1rem;
   border-radius: 0.5rem;
   background: transparent;
   resize: none;
   border: 2px solid #6176b14d;
-  color: #F5AF6E;
+  color: #f5af6e;
 }
 
 body footer .contact form button {
@@ -837,7 +856,7 @@ body footer .contact form button {
 }
 
 body footer .contact form button:hover {
-  background-color: #F5AF6E;
+  background-color: #f5af6e;
   color: white;
 }
 
@@ -875,7 +894,7 @@ body footer .contact iframe {
   body main .section-two .overview-container .card a .text::before {
     left: 0;
     opacity: 1;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.384);
   }
   body main .section-two .overview-container .card a .text h2 {
     opacity: 1;
@@ -946,7 +965,6 @@ body footer .contact iframe {
   body main .section-two .overview-container .card a .text::before {
     left: 0;
     opacity: 1;
-    background-color: transparent;
   }
   body main .section-two .overview-container .card a .text h2 {
     opacity: 1;
